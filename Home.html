@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web designe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navlinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="Home.html">HOME</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Developer contact</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <div class="text-box">
+        <h1>School Name</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br> Voluptates minus exercitationem libero sequi neque sed dolore asperiores mollitia dolorum dolores?.</p>
+        <a href="#" class="hero-btn">Visit us to know more</a>
+    </div>
+    </section>
+    <!-- Course -->
+    
+    <section class="course">
+        <h1>Courses we offer</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus, animi.</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo optio accusamus corporis tempore magni maiores quidem modi ratione sed aperiam inventore reprehenderit tenetur voluptas, iste, similique exercitationem? Ipsum, cupiditate rerum?</p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo optio accusamus corporis tempore magni maiores quidem modi ratione sed aperiam inventore reprehenderit tenetur voluptas, iste, similique exercitationem? Ipsum, cupiditate rerum?</p>
+        </div>
+        <div class="course-col">
+            <h3>Post-Graduation</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo optio accusamus corporis tempore magni maiores quidem modi ratione sed aperiam inventore reprehenderit tenetur voluptas, iste, similique exercitationem? Ipsum, cupiditate rerum?</p>
+        </div>
+    </div>
+
+    </section>
+
+    <!-- Java script for toggle menu -->
+
+    <script>
+        var navLinks= document.getElementById("navlinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+
+    <!-- Campus -->
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, mollitia.</p>
+        <div class="row">
+        <div class="campus-col">
+            <img src="images/london.png">
+            <div class="layer">
+                <h3>LONDON</h3>
+            </div>
+        </div>
+
+        <div class="campus-col">
+            <img src="images/newyork.png">
+            <div class="layer">
+                <h3>New York</h3>
+            </div>
+        </div>
+
+        <div class="campus-col">
+            <img src="images/washington.png">
+            <div class="layer">
+                <h3>Washington</h3>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Facilities -->
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, nisi!</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png">
+                <h3>World class library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit,</p>
+            </div>
+        
+
+            <div class="facilities-col">
+                <img src="images/basketball.png">
+                <h3>World class play ground</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit,</p>
+            </div>
+            
+
+            <div class="facilities-col">
+                <img src="images/cafeteria.png">
+                <h3>World class cafe</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit,</p>
+            </div>         
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+
+    <section class="test-imonials">
+        <h1>What our student says</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis, numquam.</p>
+
+        <div class="row">
+            <div class="test-imonials-col">
+                <img src="images/user1.jpg">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate consequuntur ut soluta alias recusandae impedit atque dolorum numquam est, distinctio asperiores quasi? Incidunt iusto eveniet laudantium aut. Eum, quasi repudiandae.</p>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+
+            <div class="test-imonials-col">
+                <img src="images/user2.jpg">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate consequuntur ut soluta alias recusandae impedit atque dolorum numquam est, distinctio asperiores quasi? Incidunt iusto eveniet laudantium aut. Eum, quasi repudiandae.</p>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- footer -->
+
+    <section class="footer">
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus quas tempore ea sint expedita! Tempore accusamus atque <br> ea soluta quibusdam aliquam, officia ipsum. Optio enim recusandae voluptas hic harum fugit?</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <p> Made with <i class="fa fa-heart-o"></i> by Devraj Singh</i></p>
+        </div>
+
+    </section>
+</body>
+</html>
